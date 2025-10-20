@@ -11,21 +11,13 @@ import { ApiService } from "./api.service";
 export class AirportService {
   constructor(private api: ApiService) {}
 
-  /**
-   * ✅ IMPLEMENTED - Get all airports from API
-   * This method is already complete and shows the pattern for API calls
-   */
   getAllAirports(): Observable<Airport[]> {
     return this.api
       .get<ApiResponse<Airport>>(API_ENDPOINTS.AIRPORTS)
       .pipe(map((response) => response.airport || []));
   }
 
-  /**
-   * ✅ IMPLEMENTED - Get unique origin airports
-   * This shows how to process and transform data
-   */
-  getOriginAirports(): Observable<string[]> {
+  getOriginAirports(): Observable<(string | boolean)[]> {
     return this.getAllAirports().pipe(
       map((airports) =>
         ArrayUtils.getUniqueValues(airports, "OriginAirportCode")
