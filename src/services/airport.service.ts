@@ -1,7 +1,7 @@
-import { Injectable } from "@angular/core";
-import { Observable, map } from "rxjs";
+import { Injectable, signal, Signal, WritableSignal } from "@angular/core";
+import { Observable, map, of, tap } from "rxjs";
 import { API_ENDPOINTS } from "../constants/airport.constants";
-import { Airport, ApiResponse } from "../models/airport.model";
+import { Airport } from "../models/airport.model";
 import { ArrayUtils } from "../utils/array.utils";
 import { ApiService } from "./api.service";
 
@@ -9,12 +9,17 @@ import { ApiService } from "./api.service";
   providedIn: "root",
 })
 export class AirportService {
+  public allAirports: WritableSignal<Airport[]> = signal<Airport[]>([]);
+
   constructor(private api: ApiService) {}
 
   getAllAirports(): Observable<Airport[]> {
     return this.api.get<Airport[]>(API_ENDPOINTS.AIRPORTS).pipe(
-      map((response: Airport[]) => {
-        return response || [];
+      tap((allAirports: Airport[]) => {
+        this.allAirports.set(allAirports || []);
+      }),
+      map((allAirports: Airport[]) => {
+        return allAirports || [];
       })
     );
   }
@@ -34,9 +39,18 @@ export class AirportService {
    * TODO: Get destinations for a specific origin airport
    * Should filter airports array and return unique destinations
    */
-  // getDestinationsForOrigin(origin: string): Observable<string[]> {
-  //   // Implementation needed
-  // }
+  getDestinationsForOrigin(origin: string): Observable<string[]> {
+    const airports = this.allAirports();
+    const matched = airports.filter((a) => a.OriginAirportCode === origin);
+    const destinations = ArrayUtils.getUniqueValues(
+      matched,
+      "DestinationAirportCode"
+    ) as string[];
+
+    const result = (destinations || []).filter(Boolean) as string[];
+
+    return of(result);
+  }
 
   /**
    * TODO: Get airport details for a specific airport code

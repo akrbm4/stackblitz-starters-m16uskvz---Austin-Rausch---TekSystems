@@ -10,7 +10,7 @@ import { routes } from "./app.routes";
     <div class="app-container">
       <header>
         <h1>✈️ Airline Routes Explorer</h1>
-        <nav>
+        <nav class="navigation">
           <a routerLink="/">Home</a>
           <a routerLink="/explore-by-interest">Explore by Interest</a>
         </nav>
@@ -20,7 +20,47 @@ import { routes } from "./app.routes";
       </main>
     </div>
   `,
-  styles: [],
+  styles: [
+    `
+      .navigation {
+        display: flex;
+        gap: 1rem;
+      }
+
+      .app-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      header {
+        border-bottom: 2px solid #007acc;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+      }
+
+      h1 {
+        color: #007acc;
+        margin: 0;
+      }
+
+      .welcome-message {
+        background: #f5f5f5;
+        padding: 30px;
+        border-radius: 8px;
+        border-left: 4px solid #007acc;
+      }
+
+      ul {
+        line-height: 1.6;
+      }
+
+      li {
+        margin-bottom: 8px;
+      }
+    `,
+  ],
   imports: [RouterModule],
   standalone: true,
 })

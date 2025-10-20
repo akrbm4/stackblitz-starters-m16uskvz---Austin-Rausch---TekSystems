@@ -1,6 +1,12 @@
-<select aria-label="Origin airport">
+<select aria-label="Origin airport" (change)="getDestinationsForOrigin($event)">
   <option value="" disabled selected>Select origin</option>
-  <option *ngFor="let origin of originAirports$ | async" [value]="origin">
-    {{ origin }}
-  </option>
+
+  @for(origin of originAirports$ | async; track origin) {
+  <option [value]="origin">{{ origin }}</option>
+  }
 </select>
+
+<h4>Destinations</h4>
+@for(destination of destinations$ | async; track destination) {
+<p>{{ destination }}</p>
+}
