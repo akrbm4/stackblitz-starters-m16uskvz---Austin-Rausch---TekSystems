@@ -1,18 +1,18 @@
 import { Routes } from "@angular/router";
+import { HomeComponent } from "./components/home/home.component";
+import { AirportDetailsComponent } from "./components/airport-details.component/airport-details.component";
+import { ExploreByInterestComponent } from "./components/explore-by-interest.component/explore-by-interest.component";
 
 // TODO: Import your components here
 // import { HomeComponent } from './components/home.component';
 // import { AirportDetailsComponent } from './components/airport-details.component';
 
 export const routes: Routes = [
-  // TODO: Implement HomeComponent - this should contain the main airport selector and filters
-  // { path: '', component: HomeComponent },
+  { path: "", component: HomeComponent },
 
-  // TODO: Implement AirportDetailsComponent - this should show detailed airport information
-  // { path: 'airport/:code', component: AirportDetailsComponent },
+  { path: "airport/:code", component: AirportDetailsComponent },
 
-  // TODO: For Part 2 of the interview - implement ExploreByInterestComponent
-  // { path: 'explore-by-interest', component: ExploreByInterestComponent },
+  { path: "explore-by-interest", component: ExploreByInterestComponent },
 
   // Temporary redirect until components are implemented
   { path: "", redirectTo: "/home", pathMatch: "full" },

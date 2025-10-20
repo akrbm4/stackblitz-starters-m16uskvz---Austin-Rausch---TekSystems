@@ -14,6 +14,11 @@ export class ArrayUtils {
     return array.filter((item) => {
       return Object.entries(filters).every(([key, value]) => {
         if (value === undefined || value === null) return true;
+
+        if (typeof value === "boolean") {
+          return value ? item[key as keyof T] === value : true;
+        }
+
         return item[key as keyof T] === value;
       });
     });

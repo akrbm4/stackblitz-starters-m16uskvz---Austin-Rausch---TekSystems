@@ -1,0 +1,14 @@
+<div *ngIf="details; else noData">
+  <h2>{{ details.fullName }}</h2>
+  <h4>{{ details.cityName }}</h4>
+  <p>{{ details.description }}</p>
+
+  <h5>Things to do</h5>
+  <ul>
+    <li *ngFor="let thing of details.thingsToDo">{{ thing }}</li>
+  </ul>
+</div>
+
+<ng-template #noData>
+  <p>No details available for this airport.</p>
+</ng-template>

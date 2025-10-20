@@ -1,0 +1,11 @@
+.home-selection {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.destinations-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}

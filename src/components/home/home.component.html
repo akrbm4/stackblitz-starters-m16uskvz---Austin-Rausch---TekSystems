@@ -1,0 +1,42 @@
+<div class="home-selection">
+  <select
+    aria-label="Origin airport"
+    (change)="getDestinationsForOrigin($event)"
+  >
+    <option value="" disabled selected>Select origin</option>
+
+    @for(origin of originAirports$ | async; track origin) {
+    <option [value]="origin">{{ origin }}</option>
+    }
+  </select>
+
+  <label>
+    <input type="checkbox" [(ngModel)]="isSeasonal" (change)="applyFilters()" />
+    IsSeasonal
+  </label>
+
+  <label>
+    <input type="checkbox" [(ngModel)]="isJetBlue" (change)="applyFilters()" />
+    IsJetBlue
+  </label>
+
+  <label>
+    <input
+      type="checkbox"
+      [(ngModel)]="isInterline"
+      (change)="applyFilters()"
+    />
+    IsInterline
+  </label>
+</div>
+
+<h4>Destinations</h4>
+<div class="destinations-list">
+  @for(destination of destinations(); track destination) {
+  <a
+    href="#"
+    (click)="getDestinationDetails(destination); $event.preventDefault()"
+  >
+    {{ destination }} </a
+  >}
+</div>
