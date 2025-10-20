@@ -1,7 +1,7 @@
 import { Injectable, signal, Signal, WritableSignal } from "@angular/core";
 import { Observable, map, of, tap } from "rxjs";
 import { API_ENDPOINTS } from "../constants/airport.constants";
-import { Airport } from "../models/airport.model";
+import { Airport, AirportDetails } from "../models/airport.model";
 import { ArrayUtils } from "../utils/array.utils";
 import { ApiService } from "./api.service";
 
@@ -56,17 +56,29 @@ export class AirportService {
    * TODO: Get airport details for a specific airport code
    * Should call the airportDetails endpoint
    */
-  // getAirportDetails(code: string): Observable<AirportDetails | null> {
-  //   // Implementation needed
-  // }
+  getAirportDetails(code: string): Observable<AirportDetails | null> {
+    if (!code) return of(null);
 
-  /**
-   * TODO: Get filtered routes based on multiple filter criteria
-   * Should apply IsSeasonal, IsJetBlue, IsInterline filters
-   */
-  // getFilteredRoutes(origin: string, filters: RouteFilters): Observable<Airport[]> {
-  //   // Implementation needed - use ArrayUtils.filterByMultipleConditions
-  // }
+    return this.api
+      .get<Record<string, AirportDetails> | AirportDetails>(
+        `${API_ENDPOINTS.AIRPORT_DETAILS}?code=${encodeURIComponent(code)}`
+      )
+      .pipe(
+        map((resp) => {
+          if (!resp) return null;
+
+          if (typeof resp === "object" && code in resp) {
+            return (resp as Record<string, AirportDetails>)[code];
+          }
+
+          if ((resp as AirportDetails).fullName) {
+            return resp as AirportDetails;
+          }
+
+          return null;
+        })
+      );
+  }
 
   /**
    * TODO: Get airports that match specific meta tags (for Part 2)

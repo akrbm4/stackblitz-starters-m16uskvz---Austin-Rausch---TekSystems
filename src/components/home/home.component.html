@@ -31,6 +31,12 @@
 </div>
 
 <h4>Destinations</h4>
-@for(destination of destinations(); track destination) {
-<p>{{ destination }}</p>
-}
+<div class="destinations-list">
+  @for(destination of destinations(); track destination) {
+  <a
+    href="#"
+    (click)="getDestinationDetails(destination); $event.preventDefault()"
+  >
+    {{ destination }} </a
+  >}
+</div>
