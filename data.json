@@ -1,0 +1,1078 @@
+{
+  "airport": [
+    {
+      "OriginAirportCode": "JFK",
+      "DestinationAirportCode": "BOS",
+      "IsSeasonal": true,
+      "IsJetBlue": true,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "BOS",
+      "DestinationAirportCode": "JFK",
+      "IsSeasonal": false,
+      "IsJetBlue": true,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "LAX",
+      "DestinationAirportCode": "SFO",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "SFO",
+      "DestinationAirportCode": "LAX",
+      "IsSeasonal": true,
+      "IsJetBlue": true,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "MIA",
+      "DestinationAirportCode": "ORD",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "ORD",
+      "DestinationAirportCode": "MIA",
+      "IsSeasonal": true,
+      "IsJetBlue": true,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "ATL",
+      "DestinationAirportCode": "DFW",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "DFW",
+      "DestinationAirportCode": "ATL",
+      "IsSeasonal": true,
+      "IsJetBlue": false,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "DEN",
+      "DestinationAirportCode": "SEA",
+      "IsSeasonal": false,
+      "IsJetBlue": true,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "SEA",
+      "DestinationAirportCode": "DEN",
+      "IsSeasonal": true,
+      "IsJetBlue": false,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "IAD",
+      "DestinationAirportCode": "EWR",
+      "IsSeasonal": false,
+      "IsJetBlue": true,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "EWR",
+      "DestinationAirportCode": "IAD",
+      "IsSeasonal": true,
+      "IsJetBlue": true,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "CLT",
+      "DestinationAirportCode": "PHX",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "PHX",
+      "DestinationAirportCode": "CLT",
+      "IsSeasonal": true,
+      "IsJetBlue": true,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "LAS",
+      "DestinationAirportCode": "MCO",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "MCO",
+      "DestinationAirportCode": "LAS",
+      "IsSeasonal": true,
+      "IsJetBlue": true,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "DTW",
+      "DestinationAirportCode": "MSP",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "MSP",
+      "DestinationAirportCode": "DTW",
+      "IsSeasonal": true,
+      "IsJetBlue": false,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "PHL",
+      "DestinationAirportCode": "SAN",
+      "IsSeasonal": false,
+      "IsJetBlue": true,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "SAN",
+      "DestinationAirportCode": "PHL",
+      "IsSeasonal": true,
+      "IsJetBlue": false,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "JFK",
+      "DestinationAirportCode": "LAX",
+      "IsSeasonal": false,
+      "IsJetBlue": true,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "LAX",
+      "DestinationAirportCode": "JFK",
+      "IsSeasonal": true,
+      "IsJetBlue": true,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "BOS",
+      "DestinationAirportCode": "ATL",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "ATL",
+      "DestinationAirportCode": "BOS",
+      "IsSeasonal": true,
+      "IsJetBlue": true,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "SFO",
+      "DestinationAirportCode": "ATL",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "ATL",
+      "DestinationAirportCode": "SFO",
+      "IsSeasonal": true,
+      "IsJetBlue": false,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "ORD",
+      "DestinationAirportCode": "DEN",
+      "IsSeasonal": false,
+      "IsJetBlue": true,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "DEN",
+      "DestinationAirportCode": "ORD",
+      "IsSeasonal": true,
+      "IsJetBlue": false,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "DFW",
+      "DestinationAirportCode": "IAD",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "IAD",
+      "DestinationAirportCode": "DFW",
+      "IsSeasonal": true,
+      "IsJetBlue": true,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "SEA",
+      "DestinationAirportCode": "CLT",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "CLT",
+      "DestinationAirportCode": "SEA",
+      "IsSeasonal": true,
+      "IsJetBlue": true,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "EWR",
+      "DestinationAirportCode": "LAS",
+      "IsSeasonal": false,
+      "IsJetBlue": true,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "LAS",
+      "DestinationAirportCode": "EWR",
+      "IsSeasonal": true,
+      "IsJetBlue": false,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "PHX",
+      "DestinationAirportCode": "DTW",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "DTW",
+      "DestinationAirportCode": "PHX",
+      "IsSeasonal": true,
+      "IsJetBlue": true,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "MCO",
+      "DestinationAirportCode": "PHL",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "PHL",
+      "DestinationAirportCode": "MCO",
+      "IsSeasonal": true,
+      "IsJetBlue": true,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "MSP",
+      "DestinationAirportCode": "JFK",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "JFK",
+      "DestinationAirportCode": "MSP",
+      "IsSeasonal": true,
+      "IsJetBlue": true,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "SAN",
+      "DestinationAirportCode": "BOS",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "BOS",
+      "DestinationAirportCode": "SAN",
+      "IsSeasonal": true,
+      "IsJetBlue": false,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "LAX",
+      "DestinationAirportCode": "ORD",
+      "IsSeasonal": false,
+      "IsJetBlue": true,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "ORD",
+      "DestinationAirportCode": "LAX",
+      "IsSeasonal": true,
+      "IsJetBlue": false,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "SFO",
+      "DestinationAirportCode": "DFW",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "DFW",
+      "DestinationAirportCode": "SFO",
+      "IsSeasonal": true,
+      "IsJetBlue": true,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "MIA",
+      "DestinationAirportCode": "SEA",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "SEA",
+      "DestinationAirportCode": "MIA",
+      "IsSeasonal": true,
+      "IsJetBlue": true,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "ATL",
+      "DestinationAirportCode": "EWR",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "EWR",
+      "DestinationAirportCode": "ATL",
+      "IsSeasonal": true,
+      "IsJetBlue": false,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "DEN",
+      "DestinationAirportCode": "PHX",
+      "IsSeasonal": false,
+      "IsJetBlue": true,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "PHX",
+      "DestinationAirportCode": "DEN",
+      "IsSeasonal": true,
+      "IsJetBlue": false,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "IAD",
+      "DestinationAirportCode": "LAS",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "LAS",
+      "DestinationAirportCode": "IAD",
+      "IsSeasonal": true,
+      "IsJetBlue": true,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "CLT",
+      "DestinationAirportCode": "DTW",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "DTW",
+      "DestinationAirportCode": "CLT",
+      "IsSeasonal": true,
+      "IsJetBlue": true,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "MCO",
+      "DestinationAirportCode": "MSP",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "MSP",
+      "DestinationAirportCode": "MCO",
+      "IsSeasonal": true,
+      "IsJetBlue": false,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "PHL",
+      "DestinationAirportCode": "JFK",
+      "IsSeasonal": false,
+      "IsJetBlue": true,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "JFK",
+      "DestinationAirportCode": "PHL",
+      "IsSeasonal": true,
+      "IsJetBlue": true,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "SAN",
+      "DestinationAirportCode": "LAX",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "LAX",
+      "DestinationAirportCode": "SAN",
+      "IsSeasonal": true,
+      "IsJetBlue": true,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "BOS",
+      "DestinationAirportCode": "ATL",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "ATL",
+      "DestinationAirportCode": "BOS",
+      "IsSeasonal": true,
+      "IsJetBlue": false,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "SFO",
+      "DestinationAirportCode": "DEN",
+      "IsSeasonal": false,
+      "IsJetBlue": true,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "DEN",
+      "DestinationAirportCode": "SFO",
+      "IsSeasonal": true,
+      "IsJetBlue": false,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "MIA",
+      "DestinationAirportCode": "IAD",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "IAD",
+      "DestinationAirportCode": "MIA",
+      "IsSeasonal": true,
+      "IsJetBlue": true,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "ORD",
+      "DestinationAirportCode": "SEA",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "SEA",
+      "DestinationAirportCode": "ORD",
+      "IsSeasonal": true,
+      "IsJetBlue": true,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "DFW",
+      "DestinationAirportCode": "CLT",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "CLT",
+      "DestinationAirportCode": "DFW",
+      "IsSeasonal": true,
+      "IsJetBlue": false,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "EWR",
+      "DestinationAirportCode": "PHX",
+      "IsSeasonal": false,
+      "IsJetBlue": true,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "PHX",
+      "DestinationAirportCode": "EWR",
+      "IsSeasonal": true,
+      "IsJetBlue": false,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "LAS",
+      "DestinationAirportCode": "DTW",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "DTW",
+      "DestinationAirportCode": "LAS",
+      "IsSeasonal": true,
+      "IsJetBlue": true,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "MCO",
+      "DestinationAirportCode": "SAN",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "SAN",
+      "DestinationAirportCode": "MCO",
+      "IsSeasonal": true,
+      "IsJetBlue": true,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "MSP",
+      "DestinationAirportCode": "BOS",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "BOS",
+      "DestinationAirportCode": "MSP",
+      "IsSeasonal": true,
+      "IsJetBlue": false,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "PHL",
+      "DestinationAirportCode": "LAX",
+      "IsSeasonal": false,
+      "IsJetBlue": true,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "LAX",
+      "DestinationAirportCode": "PHL",
+      "IsSeasonal": true,
+      "IsJetBlue": true,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "JFK",
+      "DestinationAirportCode": "ATL",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "ATL",
+      "DestinationAirportCode": "JFK",
+      "IsSeasonal": true,
+      "IsJetBlue": true,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "SFO",
+      "DestinationAirportCode": "MIA",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "MIA",
+      "DestinationAirportCode": "SFO",
+      "IsSeasonal": true,
+      "IsJetBlue": false,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "ORD",
+      "DestinationAirportCode": "DFW",
+      "IsSeasonal": false,
+      "IsJetBlue": true,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "DFW",
+      "DestinationAirportCode": "ORD",
+      "IsSeasonal": true,
+      "IsJetBlue": false,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "DEN",
+      "DestinationAirportCode": "IAD",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "IAD",
+      "DestinationAirportCode": "DEN",
+      "IsSeasonal": true,
+      "IsJetBlue": true,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "SEA",
+      "DestinationAirportCode": "EWR",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "EWR",
+      "DestinationAirportCode": "SEA",
+      "IsSeasonal": true,
+      "IsJetBlue": true,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "CLT",
+      "DestinationAirportCode": "LAS",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "LAS",
+      "DestinationAirportCode": "CLT",
+      "IsSeasonal": true,
+      "IsJetBlue": false,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "PHX",
+      "DestinationAirportCode": "MCO",
+      "IsSeasonal": false,
+      "IsJetBlue": true,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "MCO",
+      "DestinationAirportCode": "PHX",
+      "IsSeasonal": true,
+      "IsJetBlue": false,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "DTW",
+      "DestinationAirportCode": "PHL",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "PHL",
+      "DestinationAirportCode": "DTW",
+      "IsSeasonal": true,
+      "IsJetBlue": true,
+      "IsInterline": true
+    },
+    {
+      "OriginAirportCode": "MSP",
+      "DestinationAirportCode": "SAN",
+      "IsSeasonal": false,
+      "IsJetBlue": false,
+      "IsInterline": false
+    },
+    {
+      "OriginAirportCode": "SAN",
+      "DestinationAirportCode": "MSP",
+      "IsSeasonal": true,
+      "IsJetBlue": true,
+      "IsInterline": false
+    }
+  ],
+  "airportDetails": {
+    "JFK": {
+      "fullName": "John F. Kennedy International Airport",
+      "cityName": "New York City",
+      "description": "The city that never sleeps, featuring iconic landmarks, world-class museums, Broadway shows, and diverse neighborhoods",
+      "meta": [
+        "lifestyle",
+        "culture",
+        "activities",
+        "demographics",
+        "specialty"
+      ],
+      "thingsToDo": [
+        "Visit the Statue of Liberty and Ellis Island",
+        "Explore Central Park and take a horse-drawn carriage ride",
+        "See a Broadway show in the Theater District",
+        "Visit the Metropolitan Museum of Art and MoMA",
+        "Walk across the Brooklyn Bridge",
+        "Experience Times Square and its bright lights",
+        "Tour the 9/11 Memorial and Museum",
+        "Take the Staten Island Ferry for harbor views",
+        "Explore diverse neighborhoods like SoHo, Greenwich Village, and Chinatown",
+        "Visit the High Line elevated park"
+      ]
+    },
+    "BOS": {
+      "fullName": "Logan International Airport",
+      "cityName": "Boston",
+      "description": "Historic city known as the birthplace of American independence, featuring cobblestone streets, prestigious universities, and rich maritime heritage",
+      "meta": ["culture", "demographics", "specialty", "activities", "nature"],
+      "thingsToDo": [
+        "Walk the Freedom Trail to see 16 historical sites",
+        "Tour Harvard University and MIT in nearby Cambridge",
+        "Visit the USS Constitution (Old Ironsides)",
+        "Explore Fenway Park, home of the Red Sox",
+        "Take a duck boat tour of the city",
+        "Visit the Boston Tea Party Ships & Museum",
+        "Stroll through the North End and try Italian cuisine",
+        "See the Boston Common, America's oldest public park",
+        "Tour the Samuel Adams Brewery",
+        "Visit the Museum of Science and New England Aquarium"
+      ]
+    },
+    "LAX": {
+      "fullName": "Los Angeles International Airport",
+      "cityName": "Los Angeles",
+      "description": "Entertainment capital of the world with beaches, Hollywood glamour, diverse culture, and year-round sunshine",
+      "meta": [
+        "nature",
+        "activities",
+        "demographics",
+        "lifestyle",
+        "specialty"
+      ],
+      "thingsToDo": [
+        "Visit Hollywood Walk of Fame and TCL Chinese Theatre",
+        "Tour movie studios like Universal Studios or Warner Bros",
+        "Relax at Santa Monica Pier and Venice Beach",
+        "Explore Beverly Hills and Rodeo Drive",
+        "Visit Griffith Observatory and Hollywood Sign",
+        "Experience the Getty Center and LACMA museums",
+        "Enjoy Disneyland and Disney California Adventure",
+        "Take a scenic drive along the Pacific Coast Highway",
+        "Explore diverse neighborhoods like West Hollywood and Downtown LA",
+        "Visit Malibu beaches and celebrity homes"
+      ]
+    },
+    "SFO": {
+      "fullName": "San Francisco International Airport",
+      "cityName": "San Francisco",
+      "description": "Picturesque city known for its iconic Golden Gate Bridge, Victorian architecture, cable cars, and innovative tech culture",
+      "meta": ["culture", "specialty", "nature", "food", "activities"],
+      "thingsToDo": [
+        "Cross the Golden Gate Bridge on foot or by bike",
+        "Take a cable car ride through the hilly streets",
+        "Visit Alcatraz Island and the former federal prison",
+        "Explore Fisherman's Wharf and Pier 39",
+        "Stroll through colorful neighborhoods like Chinatown and Haight-Ashbury",
+        "Visit Lombard Street, the 'crookedest street in the world'",
+        "Tour wine country in nearby Napa and Sonoma valleys",
+        "Explore Golden Gate Park and its museums",
+        "Take a day trip to Sausalito across the bay",
+        "Experience the vibrant food scene in the Mission District"
+      ]
+    },
+    "MIA": {
+      "fullName": "Miami International Airport",
+      "cityName": "Miami",
+      "description": "Tropical paradise known for pristine beaches, Art Deco architecture, vibrant nightlife, and Latin American culture",
+      "meta": ["nature", "lifestyle", "culture"],
+      "thingsToDo": [
+        "Relax on South Beach and admire Art Deco buildings",
+        "Explore the colorful Wynwood Arts District",
+        "Take a boat tour of Biscayne Bay and see celebrity homes",
+        "Visit Little Havana for authentic Cuban culture and cuisine",
+        "Experience Miami's famous nightlife in South Beach",
+        "Tour the Vizcaya Museum and Gardens",
+        "Take an airboat ride in the Everglades National Park",
+        "Shop and dine in the Design District",
+        "Visit the Pérez Art Museum Miami",
+        "Enjoy water sports like jet skiing and parasailing"
+      ]
+    },
+    "ORD": {
+      "fullName": "O'Hare International Airport",
+      "cityName": "Chicago",
+      "description": "Architectural marvel known as the 'Windy City' with stunning skyline, deep-dish pizza, blues music, and lakefront beauty",
+      "meta": ["lifestyle", "culture", "food", "specialty"],
+      "thingsToDo": [
+        "Admire the skyline from Millennium Park and see Cloud Gate",
+        "Take an architecture boat tour along the Chicago River",
+        "Visit the Art Institute of Chicago",
+        "Explore Navy Pier with its Ferris wheel and attractions",
+        "Try authentic deep-dish pizza at legendary pizzerias",
+        "Stroll along the Magnificent Mile for shopping",
+        "Visit Lincoln Park Zoo and conservatory",
+        "Experience Chicago's blues and jazz scene",
+        "Tour Wrigley Field, home of the Cubs",
+        "Walk or bike along the lakefront trail"
+      ]
+    },
+    "ATL": {
+      "fullName": "Hartsfield-Jackson Atlanta International Airport",
+      "cityName": "Atlanta",
+      "description": "Southern charm meets modern sophistication in this historic city known for civil rights history, Southern cuisine, and cultural attractions",
+      "meta": ["culture", "demographics", "food"],
+      "thingsToDo": [
+        "Visit the Martin Luther King Jr. National Historical Park",
+        "Explore the Georgia Aquarium, one of the world's largest",
+        "Tour the World of Coca-Cola museum",
+        "Stroll through the Atlanta Botanical Garden",
+        "Visit the High Museum of Art",
+        "Experience the BeltLine, a network of trails and parks",
+        "Explore historic neighborhoods like Virginia-Highland and Little Five Points",
+        "Visit Stone Mountain Park and see the carving",
+        "Tour the Atlanta History Center",
+        "Enjoy Southern cuisine and craft breweries"
+      ]
+    },
+    "DFW": {
+      "fullName": "Dallas/Fort Worth International Airport",
+      "cityName": "Dallas",
+      "description": "Modern metroplex blending cowboy heritage with contemporary culture, known for barbecue, oil history, and friendly hospitality",
+      "meta": ["culture", "food", "demographics", "specialty"],
+      "thingsToDo": [
+        "Visit the Sixth Floor Museum at Dealey Plaza (JFK assassination site)",
+        "Explore the Fort Worth Stockyards and see a rodeo",
+        "Tour the Dallas World Aquarium",
+        "Visit the Perot Museum of Nature and Science",
+        "Stroll through the Dallas Arts District",
+        "Experience authentic Texas barbecue",
+        "Shop in the historic West End district",
+        "Visit the George W. Bush Presidential Library",
+        "Explore the Dallas Arboretum and Botanical Garden",
+        "Take a day trip to nearby Fort Worth for Western culture"
+      ]
+    },
+    "DEN": {
+      "fullName": "Denver International Airport",
+      "cityName": "Denver",
+      "description": "Mile-high city serving as gateway to Rocky Mountain adventures, known for craft beer, outdoor recreation, and stunning mountain views",
+      "meta": ["activities", "nature", "food"],
+      "thingsToDo": [
+        "Visit Rocky Mountain National Park for hiking and wildlife",
+        "Explore the Denver Art Museum and its unique architecture",
+        "Take a brewery tour in the craft beer capital",
+        "Stroll through the 16th Street Mall",
+        "Visit Red Rocks Amphitheatre and Park",
+        "Explore the historic LoDo (Lower Downtown) district",
+        "Take a day trip to Aspen or Vail for skiing",
+        "Visit the Denver Botanic Gardens",
+        "Experience the Denver Museum of Nature & Science",
+        "Enjoy outdoor activities like hiking, biking, and white-water rafting"
+      ]
+    },
+    "SEA": {
+      "fullName": "Seattle-Tacoma International Airport",
+      "cityName": "Seattle",
+      "description": "Pacific Northwest gem known for coffee culture, tech innovation, music scene, and stunning natural beauty with mountains and water",
+      "meta": ["specialty", "food", "culture", "nature"],
+      "thingsToDo": [
+        "Visit the iconic Space Needle and Seattle Center",
+        "Explore Pike Place Market and watch fish throwing",
+        "Take a ferry to nearby islands for scenic views",
+        "Tour the original Starbucks and learn about coffee culture",
+        "Visit the Museum of Pop Culture (MoPOP)",
+        "Explore the historic Pioneer Square district",
+        "Take a day trip to Mount Rainier National Park",
+        "Visit the Chihuly Garden and Glass exhibit",
+        "Stroll through the Fremont neighborhood and see quirky art",
+        "Experience the underground tour beneath Pioneer Square"
+      ]
+    },
+    "IAD": {
+      "fullName": "Washington Dulles International Airport",
+      "cityName": "Washington, D.C.",
+      "description": "Nation's capital rich in history, politics, and culture with world-class museums, monuments, and government buildings",
+      "meta": ["culture", "demographics", "specialty"],
+      "thingsToDo": [
+        "Visit the Smithsonian museums along the National Mall",
+        "Tour the White House and U.S. Capitol Building",
+        "See the Lincoln Memorial and Washington Monument",
+        "Explore the National Gallery of Art",
+        "Visit Arlington National Cemetery",
+        "Take a nighttime monuments tour",
+        "Explore Georgetown's historic charm and shopping",
+        "Visit the Holocaust Memorial Museum",
+        "See cherry blossoms at the Tidal Basin (spring)",
+        "Tour the Kennedy Center for performing arts"
+      ]
+    },
+    "EWR": {
+      "fullName": "Newark Liberty International Airport",
+      "cityName": "Newark/New York Area",
+      "description": "Gateway to the New York metropolitan area, offering easy access to both NYC attractions and New Jersey's diverse landscapes",
+      "meta": ["lifestyle", "nature", "demographics", "activities"],
+      "thingsToDo": [
+        "Take a quick trip to Manhattan for NYC attractions",
+        "Visit Liberty State Park for Statue of Liberty views",
+        "Explore the Newark Museum of Art",
+        "Experience Atlantic City's boardwalk and casinos",
+        "Visit Princeton University and its charming town",
+        "Explore the Jersey Shore beaches",
+        "Take a day trip to Philadelphia (1.5 hours away)",
+        "Visit the Thomas Edison National Historical Park",
+        "Explore the Grounds for Sculpture in Hamilton",
+        "Experience Six Flags Great Adventure theme park"
+      ]
+    },
+    "CLT": {
+      "fullName": "Charlotte Douglas International Airport",
+      "cityName": "Charlotte",
+      "description": "Southern city known as the 'Queen City' with a blend of modern banking district, NASCAR heritage, and Southern hospitality",
+      "meta": ["activities", "demographics", "food", "culture"],
+      "thingsToDo": [
+        "Visit the NASCAR Hall of Fame",
+        "Explore the vibrant Uptown district",
+        "Stroll through the beautiful Daniel Stowe Botanical Garden",
+        "Visit the Mint Museum for art and design",
+        "Experience the U.S. National Whitewater Center for outdoor adventures",
+        "Tour the Historic Rosedale Plantation",
+        "Explore the trendy NoDa (North Davidson) arts district",
+        "Visit Carowinds theme park",
+        "Take a day trip to the Blue Ridge Mountains",
+        "Experience Charlotte's growing food and brewery scene"
+      ]
+    },
+    "PHX": {
+      "fullName": "Phoenix Sky Harbor International Airport",
+      "cityName": "Phoenix",
+      "description": "Desert oasis known for year-round sunshine, Southwestern culture, stunning desert landscapes, and world-class golf resorts",
+      "meta": ["nature", "lifestyle", "activities"],
+      "thingsToDo": [
+        "Hike Camelback Mountain for panoramic city views",
+        "Explore the Desert Botanical Garden",
+        "Visit Taliesin West, Frank Lloyd Wright's winter home",
+        "Take a hot air balloon ride over the Sonoran Desert",
+        "Explore Old Town Scottsdale for shopping and dining",
+        "Visit the Musical Instrument Museum",
+        "Take a day trip to Sedona for red rock formations",
+        "Experience world-class golf courses and spas",
+        "Visit the Heard Museum for Native American art",
+        "Explore South Mountain Park, one of the largest city parks"
+      ]
+    },
+    "LAS": {
+      "fullName": "McCarran International Airport (Harry Reid International)",
+      "cityName": "Las Vegas",
+      "description": "Entertainment capital with dazzling casinos, world-class shows, fine dining, and nearby natural wonders in the Mojave Desert",
+      "meta": ["lifestyle", "activities", "specialty", "food"],
+      "thingsToDo": [
+        "Walk the famous Las Vegas Strip and visit iconic casinos",
+        "See spectacular shows like Cirque du Soleil",
+        "Experience fine dining at celebrity chef restaurants",
+        "Take a helicopter tour of the Strip and Grand Canyon",
+        "Visit the Fountains of Bellagio",
+        "Explore the Fremont Street Experience downtown",
+        "Take a day trip to the Grand Canyon",
+        "Visit Red Rock Canyon for hiking and scenic drives",
+        "Experience the High Roller observation wheel",
+        "Try your luck at world-famous casinos and poker rooms"
+      ]
+    },
+    "MCO": {
+      "fullName": "Orlando International Airport",
+      "cityName": "Orlando",
+      "description": "Theme park capital of the world and family vacation destination with magical attractions, entertainment, and year-round warm weather",
+      "meta": ["demographics", "activities", "specialty"],
+      "thingsToDo": [
+        "Visit Walt Disney World Resort and its four theme parks",
+        "Experience Universal Studios and Islands of Adventure",
+        "Explore ICON Park on International Drive",
+        "Visit SeaWorld Orlando for marine life shows",
+        "Take an airboat tour in nearby wetlands",
+        "Experience LEGOLAND Florida (45 minutes away)",
+        "Visit Gatorland for alligator encounters",
+        "Explore International Drive for dining and entertainment",
+        "Take a day trip to Kennedy Space Center",
+        "Enjoy water parks like Blizzard Beach and Volcano Bay"
+      ]
+    },
+    "DTW": {
+      "fullName": "Detroit Metropolitan Wayne County Airport",
+      "cityName": "Detroit",
+      "description": "Motor City with rich automotive history, Motown music legacy, revitalized downtown, and unique cultural attractions",
+      "meta": ["culture", "specialty", "activities"],
+      "thingsToDo": [
+        "Visit the Henry Ford Museum and Greenfield Village",
+        "Explore the Detroit Institute of Arts",
+        "Tour the Motown Museum and learn about music history",
+        "Walk along the Detroit Riverwalk",
+        "Visit the Guardian Building and other architectural gems",
+        "Explore the Eastern Market for local goods and food",
+        "Take a tour of Ford Rouge Factory",
+        "Visit Belle Isle Park and its attractions",
+        "Experience the vibrant Corktown neighborhood",
+        "Learn about automotive history at multiple car museums"
+      ]
+    },
+    "MSP": {
+      "fullName": "Minneapolis-Saint Paul International Airport",
+      "cityName": "Minneapolis",
+      "description": "Twin Cities known for lakes, parks, cultural attractions, friendly Midwestern hospitality, and vibrant arts scene",
+      "meta": ["culture", "nature", "food", "demographics"],
+      "thingsToDo": [
+        "Explore the Walker Art Center and Sculpture Garden",
+        "Visit the Mall of America for shopping and entertainment",
+        "Stroll around the Chain of Lakes",
+        "Experience the historic Mill City Museum",
+        "Visit the Minneapolis Institute of Art",
+        "Explore the vibrant Northeast Arts District",
+        "Take a riverboat cruise on the Mississippi River",
+        "Visit Paisley Park, Prince's former home and studio",
+        "Explore the Grand Rounds Scenic Byway",
+        "Experience the thriving craft brewery scene"
+      ]
+    },
+    "PHL": {
+      "fullName": "Philadelphia International Airport",
+      "cityName": "Philadelphia",
+      "description": "City of Brotherly Love and birthplace of America, rich in revolutionary history, famous cheesesteaks, and vibrant neighborhoods",
+      "meta": ["culture", "food", "demographics"],
+      "thingsToDo": [
+        "Visit Independence Hall and see the Liberty Bell",
+        "Run up the Rocky Steps at the Philadelphia Museum of Art",
+        "Explore the historic cobblestone streets of Old City",
+        "Try an authentic Philly cheesesteak",
+        "Visit the Eastern State Penitentiary",
+        "Explore the vibrant Reading Terminal Market",
+        "Take a stroll through Rittenhouse Square",
+        "Visit the National Constitution Center",
+        "Explore the Philadelphia Magic Gardens",
+        "Experience the city's growing craft beer and restaurant scene"
+      ]
+    },
+    "SAN": {
+      "fullName": "San Diego International Airport",
+      "cityName": "San Diego",
+      "description": "Year-round perfect weather, beautiful beaches, world-famous zoo, craft beer scene, and laid-back Southern California lifestyle",
+      "meta": ["nature", "demographics", "food", "lifestyle"],
+      "thingsToDo": [
+        "Visit the world-renowned San Diego Zoo and Safari Park",
+        "Relax at Mission Beach and Pacific Beach",
+        "Explore Balboa Park and its numerous museums",
+        "Take a harbor cruise to see sea lions and dolphins",
+        "Visit the historic Gaslamp Quarter",
+        "Experience La Jolla Cove for snorkeling and sea lions",
+        "Tour craft breweries in the beer capital of America",
+        "Visit the USS Midway Museum",
+        "Explore Sunset Cliffs for breathtaking ocean views",
+        "Take a day trip to nearby Tijuana, Mexico"
+      ]
+    }
+  }
+}
