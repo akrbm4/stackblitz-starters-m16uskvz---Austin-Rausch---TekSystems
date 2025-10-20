@@ -1,1 +1,6 @@
-<p>home.component works!</p>
+<select aria-label="Origin airport">
+  <option value="" disabled selected>Select origin</option>
+  <option *ngFor="let origin of originAirports$ | async" [value]="origin">
+    {{ origin }}
+  </option>
+</select>

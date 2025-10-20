@@ -12,9 +12,11 @@ export class AirportService {
   constructor(private api: ApiService) {}
 
   getAllAirports(): Observable<Airport[]> {
-    return this.api
-      .get<ApiResponse<Airport>>(API_ENDPOINTS.AIRPORTS)
-      .pipe(map((response) => response.airport || []));
+    return this.api.get<Airport[]>(API_ENDPOINTS.AIRPORTS).pipe(
+      map((response: Airport[]) => {
+        return response || [];
+      })
+    );
   }
 
   getOriginAirports(): Observable<(string | boolean)[]> {
