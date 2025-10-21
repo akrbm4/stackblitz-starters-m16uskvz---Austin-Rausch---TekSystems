@@ -1,3 +1,9 @@
+Notes from Austin:
+
+I believe I completed all the listed requirements aside from the "part 2" sections.
+
+I added unit tests that use vitest, but they don't seem to play well with Stackblitz for some reason.
+
 ✈️ Take-Home Assignment: Flight Routes Explorer (Angular)
 
 You will build a simple yet functional web-based interface that allows users to explore flight routes and airport details using the provided dataset.
