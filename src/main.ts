@@ -12,7 +12,7 @@ import { routes } from "./app.routes";
         <h1>✈️ Airline Routes Explorer</h1>
         <nav class="navigation">
           <a routerLink="/">Home</a>
-          <!-- <a routerLink="/explore-by-interest">Explore by Interest</a> -->
+          <a routerLink="/explore-by-interest">Explore by Interest</a>
         </nav>
       </header>
       <main>

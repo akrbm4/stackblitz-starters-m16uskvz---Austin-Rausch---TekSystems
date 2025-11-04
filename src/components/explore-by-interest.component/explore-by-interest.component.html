@@ -1,1 +1,10 @@
-<p>explore-by-interest.component works!</p>
+@for(tag of metaTags; track tag) {
+<label>
+  <input type="checkbox" [(ngModel)]="tagMap[tag]" (change)="applyFilters()" />
+  {{ tag | titlecase }}
+</label>
+} @for(airport of airports; track airport.OriginAirportCode) {
+<h4 class="airport-code" (click)="selectAirport($event)">
+  {{ airport.OriginAirportCode }}
+</h4>
+}

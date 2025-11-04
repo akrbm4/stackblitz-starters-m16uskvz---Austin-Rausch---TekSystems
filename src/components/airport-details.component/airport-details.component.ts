@@ -1,4 +1,4 @@
-import { Component, signal, WritableSignal } from "@angular/core";
+import { Component } from "@angular/core";
 import { BaseComponent } from "../base.component";
 import { ActivatedRoute } from "@angular/router";
 import { takeUntil, switchMap, of, catchError, finalize } from "rxjs";
